@@ -1,7 +1,10 @@
-require('./Error')
-require('./GameByteArray')
-require('./BaseClass')
-require('./BaseSys')
+require('./common/Error')
+require('./common/GameByteArray')
+require('./common/BaseClass')
+require('./common/BaseSys')
 //
-require('./RoleSys')
-require('./DefaultSys')
+require('./mod/RoleSys')
+require('./mod/DefaultSys')
+
+//
+require('./GameLogic')

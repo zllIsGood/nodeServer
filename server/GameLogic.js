@@ -7,7 +7,7 @@ var GameMode = []
 GameMode[0] = DefaultSys;
 GameMode[255] = RoleSys;
 
-module.exports = class GameLogic extends BaseClass {
+/* module.exports */global.GameLogic = class GameLogic extends BaseClass {
     
     static paser(msg, ws) {
         msg.position = 12

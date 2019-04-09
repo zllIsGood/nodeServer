@@ -4,7 +4,6 @@ const WebSocket = require(mod + 'ws')
 const WebSocketServer = WebSocket.Server;
 
 require('./Globel')
-var GameLogic = require('./GameLogic')
 
 // 创建 websocket 服务器 监听在 3000 端口
 const wss = new WebSocketServer({ port: 3000 })
