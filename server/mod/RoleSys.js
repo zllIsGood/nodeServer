@@ -24,7 +24,7 @@ global.RoleSys = class RoleSys extends BaseSys {
                 break;
         }
     }
-
+    
     send_255_4(ws) {
         var bytes = this.getBytes(255, 4)
         bytes.writeInt(211)
