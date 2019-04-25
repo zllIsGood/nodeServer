@@ -16,7 +16,7 @@
 
                 break;
             case 255: //心跳包
-                // ws.close() //websocket close
+                // ws.terminate()// ws.close() //websocket closed 断开连接
                 break;
         }
     }

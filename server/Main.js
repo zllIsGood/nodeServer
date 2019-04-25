@@ -6,7 +6,8 @@ const WebSocketServer = WebSocket.Server;
 require('./Globel')
 
 // 创建 websocket 服务器 监听在 3000 端口
-const wss = new WebSocketServer({ port: 3000 })
+var wss = new WebSocketServer({ port: 3000 })
+global.wss = wss
 
 // 服务器被客户端连接
 wss.on('connection', (ws) => {
